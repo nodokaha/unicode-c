@@ -27,6 +27,32 @@ uname -v = #1-NixOS SMP Thu Apr 20 10:13:57 UTC 2023
 /usr/bin/oslevel       = unknown
 /bin/universe          = unknown
 
+PATH: /nix/store/dsfcdjmymlc18wzk0hssycwifg4wznan-bash-interactive-5.1-p16/bin/
+PATH: /nix/store/4ccwc439gkpk91gflh6zsyx12fkfcggx-patchelf-0.15.0/bin/
+PATH: /nix/store/y372k7srz9jm7v9sv2cs84g3crz27z1s-gcc-wrapper-11.3.0/bin/
+PATH: /nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/bin/
+PATH: /nix/store/fi1521530hy97gwjfdlgiqb4wad2g13d-glibc-2.35-224-bin/bin/
+PATH: /nix/store/l6jgwxkc3jhr029vfzfwzcy28iyckwsj-coreutils-9.1/bin/
+PATH: /nix/store/l5i2w0w446pqsnpdxrlsf3azy5aspfxq-binutils-wrapper-2.39/bin/
+PATH: /nix/store/9n9gjvzci75gp2sh1c4rh626dhizqynl-binutils-2.39/bin/
+PATH: /nix/store/pxpxv09rrirb6m99kkm5pmazrd84r49a-perl5.36.0-JSON-Parse-0.61/bin/
+PATH: /nix/store/p4kc21xjdp11sgsmp804g0w1ya8irl1s-perl-5.36.0/bin/
+PATH: /nix/store/l6jgwxkc3jhr029vfzfwzcy28iyckwsj-coreutils-9.1/bin/
+PATH: /nix/store/gn1s1s5z19cf0wiir2cd38jckcjc6kn6-findutils-4.9.0/bin/
+PATH: /nix/store/5l382qdhcyyjsyhfqqc0g15rmvs3rs4s-diffutils-3.8/bin/
+PATH: /nix/store/v0hg83sdv4v51c0prmdigry6wdmmpzmp-gnused-4.8/bin/
+PATH: /nix/store/pvb117r7fhwb08717ks21a6y9hlnp63b-gnugrep-3.7/bin/
+PATH: /nix/store/51sgpaxsi4sl46ii9fssvyp7n592if1m-gawk-5.1.1/bin/
+PATH: /nix/store/isycdamy5rsi0vq55fxz0438srx5z0hv-gnutar-1.34/bin/
+PATH: /nix/store/w9pbk66kf43wrpdcijjzc8vf8cymnaxy-gzip-1.12/bin/
+PATH: /nix/store/r84vlmw71jw2piv03n0jdhav2zsdvm6n-bzip2-1.0.8-bin/bin/
+PATH: /nix/store/cgbpv0vvz31qayvbf3bif2iznp46wcgl-gnumake-4.3/bin/
+PATH: /nix/store/kga2r02rmyxl14sg96nxbdhifq3rb8lc-bash-5.1-p16/bin/
+PATH: /nix/store/f1gvh42512gjf3378nmlw2vrx491yndq-patch-2.7.6/bin/
+PATH: /nix/store/y8z2dmbxdapyzpcrhfbdv875l5v7ddpi-xz-5.2.7-bin/bin/
+PATH: /nix/store/cmnq5bja0h0an1k3cyb36blkfci8nxaf-file-5.43/bin/
+PATH: /home/nodokaha/perl5/bin/
+PATH: /home/nodokaha/perl5/bin/
 PATH: /run/wrappers/bin/
 PATH: /home/nodokaha/.local/share/flatpak/exports/bin/
 PATH: /var/lib/flatpak/exports/bin/
@@ -34,6 +60,7 @@ PATH: /home/nodokaha/.nix-profile/bin/
 PATH: /etc/profiles/per-user/nodokaha/bin/
 PATH: /nix/var/nix/profiles/default/bin/
 PATH: /run/current-system/sw/bin/
+PATH: /home/nodokaha/.cargo/bin/
 PATH: /home/nodokaha/.cargo/bin/
 
 
@@ -47,7 +74,6 @@ configure:2409:   ./missing found
 configure:2391:   ./install-sh found
 configure:2409:   ./compile found
 configure:2587: checking for gcc
-configure:2608: found /run/current-system/sw/bin/gcc
 configure:2619: result: gcc
 configure:2972: checking for C compiler version
 configure:2981: gcc --version >&5
@@ -121,13 +147,13 @@ configure:3554: gcc -c conftest.c -o conftest2.o
 configure:3557: $? = 0
 configure:3569: result: yes
 configure:3601: checking for a BSD-compatible install
-configure:3674: result: /run/current-system/sw/bin/install -c
+configure:3674: result: /nix/store/l6jgwxkc3jhr029vfzfwzcy28iyckwsj-coreutils-9.1/bin/install -c
 configure:3687: checking whether build environment is sane
 configure:3742: result: yes
 configure:3897: checking for a race-free mkdir -p
-configure:3941: result: /run/current-system/sw/bin/mkdir -p
+configure:3941: result: /nix/store/l6jgwxkc3jhr029vfzfwzcy28iyckwsj-coreutils-9.1/bin/mkdir -p
 configure:3948: checking for gawk
-configure:3969: found /run/current-system/sw/bin/gawk
+configure:3969: found /nix/store/51sgpaxsi4sl46ii9fssvyp7n592if1m-gawk-5.1.1/bin/gawk
 configure:3980: result: gawk
 configure:3991: checking whether make sets $(MAKE)
 configure:4014: result: yes
@@ -343,8 +369,8 @@ ac_cv_c_compiler_gnu=yes
 ac_cv_c_int32_t=yes
 ac_cv_c_uint32_t=yes
 ac_cv_c_uint8_t=yes
-ac_cv_env_CC_set=
-ac_cv_env_CC_value=
+ac_cv_env_CC_set=set
+ac_cv_env_CC_value=gcc
 ac_cv_env_CFLAGS_set=
 ac_cv_env_CFLAGS_value=
 ac_cv_env_CPPFLAGS_set=
@@ -369,8 +395,8 @@ ac_cv_header_sys_stat_h=yes
 ac_cv_header_sys_types_h=yes
 ac_cv_header_unistd_h=yes
 ac_cv_objext=o
-ac_cv_path_install='/run/current-system/sw/bin/install -c'
-ac_cv_path_mkdir=/run/current-system/sw/bin/mkdir
+ac_cv_path_install='/nix/store/l6jgwxkc3jhr029vfzfwzcy28iyckwsj-coreutils-9.1/bin/install -c'
+ac_cv_path_mkdir=/nix/store/l6jgwxkc3jhr029vfzfwzcy28iyckwsj-coreutils-9.1/bin/mkdir
 ac_cv_prog_AWK=gawk
 ac_cv_prog_ac_ct_CC=gcc
 ac_cv_prog_cc_c11=
@@ -422,7 +448,7 @@ LIBOBJS=''
 LIBS=''
 LTLIBOBJS=''
 MAKEINFO='${SHELL} '\''/home/nodokaha/parser/src/unicode-c/missing'\'' makeinfo'
-MKDIR_P='/run/current-system/sw/bin/mkdir -p'
+MKDIR_P='/nix/store/l6jgwxkc3jhr029vfzfwzcy28iyckwsj-coreutils-9.1/bin/mkdir -p'
 OBJEXT='o'
 PACKAGE='full-package-name'
 PACKAGE_BUGREPORT='BUG-REPORT-ADDRESS'
@@ -530,20 +556,3 @@ make[1]: Entering directory '/home/nodokaha/parser/src/unicode-c/src'
 make[1]: Nothing to be done for 'am--depfiles'.
 make[1]: Leaving directory '/home/nodokaha/parser/src/unicode-c/src'
 config.status:1160: $? = 0
-
-## ---------------------- ##
-## Running config.status. ##
-## ---------------------- ##
-
-This file was extended by FULL-PACKAGE-NAME config.status VERSION, which was
-generated by GNU Autoconf 2.71.  Invocation command line was
-
-  CONFIG_FILES    = 
-  CONFIG_HEADERS  = 
-  CONFIG_LINKS    = 
-  CONFIG_COMMANDS = 
-  $ ./config.status Makefile
-
-on nodokaha-nixos
-
-config.status:849: creating Makefile
