@@ -1,4 +1,4 @@
-#!/nix/store/7vx8r0bx1zvyy958fpjc6zrlv375r0xf-system-path/bin/perl
+#!/usr/bin/env perl
 use warnings;
 use strict;
 use utf8;
