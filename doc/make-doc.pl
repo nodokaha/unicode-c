@@ -1,4 +1,4 @@
-#!/home/ben/software/install/bin/perl
+#!/nix/store/7vx8r0bx1zvyy958fpjc6zrlv375r0xf-system-path/bin/perl
 use warnings;
 use strict;
 use utf8;
@@ -14,7 +14,7 @@ use JSON::Create 'create_json';
 use List::UtilsBy 'sort_by';
 use Text::LineNumber;
 
-my $in = "$Bin/../unicode.c";
+my $in = "$Bin/../src/unicode.c";
 my $text = read_text ($in);
 
 my %macros;

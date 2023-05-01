@@ -1,0 +1,2 @@
+noinst_LTLIBRARIES = libunicode-c.la
+libunicode_SOURCES = unicode.c

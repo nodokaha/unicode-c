@@ -1,0 +1,49 @@
+unicode.o: unicode.c \
+ /nix/store/iczlqwdj10xiz3mmms6adnra0mn3ljk1-glibc-2.35-224-dev/include/stdc-predef.h \
+ /nix/store/iczlqwdj10xiz3mmms6adnra0mn3ljk1-glibc-2.35-224-dev/include/string.h \
+ /nix/store/iczlqwdj10xiz3mmms6adnra0mn3ljk1-glibc-2.35-224-dev/include/bits/libc-header-start.h \
+ /nix/store/iczlqwdj10xiz3mmms6adnra0mn3ljk1-glibc-2.35-224-dev/include/features.h \
+ /nix/store/iczlqwdj10xiz3mmms6adnra0mn3ljk1-glibc-2.35-224-dev/include/features-time64.h \
+ /nix/store/iczlqwdj10xiz3mmms6adnra0mn3ljk1-glibc-2.35-224-dev/include/bits/wordsize.h \
+ /nix/store/iczlqwdj10xiz3mmms6adnra0mn3ljk1-glibc-2.35-224-dev/include/bits/timesize.h \
+ /nix/store/iczlqwdj10xiz3mmms6adnra0mn3ljk1-glibc-2.35-224-dev/include/sys/cdefs.h \
+ /nix/store/iczlqwdj10xiz3mmms6adnra0mn3ljk1-glibc-2.35-224-dev/include/bits/long-double.h \
+ /nix/store/iczlqwdj10xiz3mmms6adnra0mn3ljk1-glibc-2.35-224-dev/include/gnu/stubs.h \
+ /nix/store/iczlqwdj10xiz3mmms6adnra0mn3ljk1-glibc-2.35-224-dev/include/gnu/stubs-64.h \
+ /nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include/stddef.h \
+ /nix/store/iczlqwdj10xiz3mmms6adnra0mn3ljk1-glibc-2.35-224-dev/include/bits/types/locale_t.h \
+ /nix/store/iczlqwdj10xiz3mmms6adnra0mn3ljk1-glibc-2.35-224-dev/include/bits/types/__locale_t.h \
+ /nix/store/iczlqwdj10xiz3mmms6adnra0mn3ljk1-glibc-2.35-224-dev/include/strings.h \
+ /nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include/stdint.h \
+ /nix/store/iczlqwdj10xiz3mmms6adnra0mn3ljk1-glibc-2.35-224-dev/include/stdint.h \
+ /nix/store/iczlqwdj10xiz3mmms6adnra0mn3ljk1-glibc-2.35-224-dev/include/bits/types.h \
+ /nix/store/iczlqwdj10xiz3mmms6adnra0mn3ljk1-glibc-2.35-224-dev/include/bits/typesizes.h \
+ /nix/store/iczlqwdj10xiz3mmms6adnra0mn3ljk1-glibc-2.35-224-dev/include/bits/time64.h \
+ /nix/store/iczlqwdj10xiz3mmms6adnra0mn3ljk1-glibc-2.35-224-dev/include/bits/wchar.h \
+ /nix/store/iczlqwdj10xiz3mmms6adnra0mn3ljk1-glibc-2.35-224-dev/include/bits/stdint-intn.h \
+ /nix/store/iczlqwdj10xiz3mmms6adnra0mn3ljk1-glibc-2.35-224-dev/include/bits/stdint-uintn.h \
+ unicode.h
+/nix/store/iczlqwdj10xiz3mmms6adnra0mn3ljk1-glibc-2.35-224-dev/include/stdc-predef.h:
+/nix/store/iczlqwdj10xiz3mmms6adnra0mn3ljk1-glibc-2.35-224-dev/include/string.h:
+/nix/store/iczlqwdj10xiz3mmms6adnra0mn3ljk1-glibc-2.35-224-dev/include/bits/libc-header-start.h:
+/nix/store/iczlqwdj10xiz3mmms6adnra0mn3ljk1-glibc-2.35-224-dev/include/features.h:
+/nix/store/iczlqwdj10xiz3mmms6adnra0mn3ljk1-glibc-2.35-224-dev/include/features-time64.h:
+/nix/store/iczlqwdj10xiz3mmms6adnra0mn3ljk1-glibc-2.35-224-dev/include/bits/wordsize.h:
+/nix/store/iczlqwdj10xiz3mmms6adnra0mn3ljk1-glibc-2.35-224-dev/include/bits/timesize.h:
+/nix/store/iczlqwdj10xiz3mmms6adnra0mn3ljk1-glibc-2.35-224-dev/include/sys/cdefs.h:
+/nix/store/iczlqwdj10xiz3mmms6adnra0mn3ljk1-glibc-2.35-224-dev/include/bits/long-double.h:
+/nix/store/iczlqwdj10xiz3mmms6adnra0mn3ljk1-glibc-2.35-224-dev/include/gnu/stubs.h:
+/nix/store/iczlqwdj10xiz3mmms6adnra0mn3ljk1-glibc-2.35-224-dev/include/gnu/stubs-64.h:
+/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include/stddef.h:
+/nix/store/iczlqwdj10xiz3mmms6adnra0mn3ljk1-glibc-2.35-224-dev/include/bits/types/locale_t.h:
+/nix/store/iczlqwdj10xiz3mmms6adnra0mn3ljk1-glibc-2.35-224-dev/include/bits/types/__locale_t.h:
+/nix/store/iczlqwdj10xiz3mmms6adnra0mn3ljk1-glibc-2.35-224-dev/include/strings.h:
+/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include/stdint.h:
+/nix/store/iczlqwdj10xiz3mmms6adnra0mn3ljk1-glibc-2.35-224-dev/include/stdint.h:
+/nix/store/iczlqwdj10xiz3mmms6adnra0mn3ljk1-glibc-2.35-224-dev/include/bits/types.h:
+/nix/store/iczlqwdj10xiz3mmms6adnra0mn3ljk1-glibc-2.35-224-dev/include/bits/typesizes.h:
+/nix/store/iczlqwdj10xiz3mmms6adnra0mn3ljk1-glibc-2.35-224-dev/include/bits/time64.h:
+/nix/store/iczlqwdj10xiz3mmms6adnra0mn3ljk1-glibc-2.35-224-dev/include/bits/wchar.h:
+/nix/store/iczlqwdj10xiz3mmms6adnra0mn3ljk1-glibc-2.35-224-dev/include/bits/stdint-intn.h:
+/nix/store/iczlqwdj10xiz3mmms6adnra0mn3ljk1-glibc-2.35-224-dev/include/bits/stdint-uintn.h:
+unicode.h:

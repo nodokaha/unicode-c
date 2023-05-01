@@ -1,6 +1,6 @@
 author: Ben Bullock
 email: benkasminbullock@gmail.com, bkb@cpan.org
-repository: https://github.com/benkasminbullock/unicode-c
+repository: https://github.com/benkasminbullo../src/unicode.c
 online_url: https://www.lemoda.net/tools/uniconvert/index.html
 %%online_text:
 There is an online version 
